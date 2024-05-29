@@ -21,9 +21,9 @@ Remove ios folder then reinstall after completion project **flutter create -i sw
     pod update
 
 In iOS folder Pod file not present then 
+
     Pod init
     Pod install
-
 
     export PATH=“$PATH:/Users/mac/Desktop/flutter/bin
     export PATH=“$PATH:/Users/deepak.sharma/flutter/bin
@@ -50,10 +50,6 @@ If it's fail then provide full access from setting to Xcode app terminal app
 **For g.dart  **
 
     flutter pub run build_runner build
-
-### iOS Icon Generator (Drag & Drop runner -> Assets)
-
-[App Icon](https://www.appicon.co/)
 
 ### Permission In Info.plist (runner -> Info.Plist)
 
@@ -83,6 +79,15 @@ If it's fail then provide full access from setting to Xcode app terminal app
 
     <key>NSPhotoLibraryAddUsageDescription</key>
     <string>This app require save photo permission</string>
+
+### iOS Icon Generator (Drag & Drop runner -> Assets)
+
+[App Icon](https://www.appicon.co/)
+
+### Developer Account 
+[Apple Developer Account](https://developer.apple.com/account)
+
+[Apple Support](https://getsupport.apple.com/products)
 
 
 ## Other Assets
@@ -115,11 +120,14 @@ If it's fail then provide full access from setting to Xcode app terminal app
   * [Png Image Crop](https://onlinepngtools.com/crop-png)
   * [Image Create For PlayStore](https://www.appstorescreenshot.com/)
   * [Merge Image Horizontally](https://www.filesmerge.com/merge-images)
-  * [Yopmail.com, mailinator] use for fake mail
-  * [http://receivefreesms.com/, https://www.freeonlinephone.org/] use for fake OTP
+  * [Fake Mail](https://www.mailinator.com/)
+  * [Fake Mail](https://yopmail.com/en/wm)
+  * [Fake OTP](http://receivefreesms.com/)
+  * [Fake OTP](https://www.freeonlinephone.org/)
+  * [Fake OTP and mail](Use Telegram Channel)
   * [Apk upload and link](https://www.diawi.com/)
+  * [Ads Mob](https://admob.google.com/home/)
   * [For Ads](https://www.app-ads-txt.com/appadstxt/edit)
-  
   * [Mock Location](https://play.google.com/store/apps/details?id=ru.gavrikov.mocklocations&hl=en_IN&gl=US)
   * [SHA KEY Steps](https://stackoverflow.com/questions/27609442/how-to-get-the-sha-1-fingerprint-certificate-in-android-studio-for-debug-mode)
          1) Click on the gradle. Top right on the Android Studio. As you can see in this picture.
