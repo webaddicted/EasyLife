@@ -60,7 +60,7 @@ If it's fail then provide full access from setting to Xcode app terminal app
     <string>When in use permissions</string>
     <key>NSLocationAlwaysUsageDescription</key>
     <string>always permissions</string>
-    <key>NSLocationAlwaysAndWhenInUsageDescription</key>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
     <string>Always and in usage permissions</string>
 
 **Camera**
