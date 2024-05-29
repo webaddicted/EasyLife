@@ -3,60 +3,86 @@
 ## Android
 
 
-
 ## Flutter iOS
 
 ### Basic Install Process
 Remove ios folder then reinstall after completion project **flutter create -i swift --platforms ios .**
-1. Pod install (zsh: command not found: pod)
-* sudo gem install cocoapods
 
-sudo gem install activesupport -v 6.1.7.7
-
-ruby -v
-gem -v
-gem update --system
-
-pod install(In iOS Folder)
-
-pod clean 
-pod install
-pod update
+    Pod install (zsh: command not found: pod)
+    sudo gem install cocoapods
+    sudo gem install activesupport -v 6.1.7.7
+    ruby -v
+    gem -v
+    gem update --system
+    
+    pod install(In iOS Folder)
+    pod clean 
+    pod install
+    pod update
 
 In iOS folder Pod file not present then 
-Pod init
-Pod install
+    Pod init
+    Pod install
 
 
-export PATH=“$PATH:/Users/mac/Desktop/flutter/bin
-export PATH=“$PATH:/Users/deepak.sharma/flutter/bin
+    export PATH=“$PATH:/Users/mac/Desktop/flutter/bin
+    export PATH=“$PATH:/Users/deepak.sharma/flutter/bin
+    flutter build ios
+    
+If it's fail then provide full access from setting to Xcode app terminal app
 
-
-flutter build ios
-If its fail then provide full access from setting to Xcode app terminal app
-
-
-/bin/sh "$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh" build provide in runner >build phases >run script
-
-flutterfire configure  recreate iOS folder 
-flutter create -i swift --platforms ios .
-
-
-**flutter build ios
-flutter build apk
-flutter build web --release
-//for local version
-flutter run --release 
-
-flutterfire configure**
-
-
+    /bin/sh "$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh" build provide in runner >build phases >run script
+    
+    flutterfire configure  recreate iOS folder 
+    flutter create -i swift --platforms ios .
+    
+    flutter build ios
+    flutter build apk
+    flutter build web --release
+    //for local version
+    flutter run --release 
+    flutterfire configure
 
 **Flutter Migration process**
-https://dart.dev/resources/dart-3-migration
 
-For g.dart  flutter pub run build_runner build
+    https://dart.dev/resources/dart-3-migration
 
+**For g.dart  **
+
+    flutter pub run build_runner build
+
+### iOS Icon Generator (Drag & Drop runner -> Assets)
+
+[App Icon](https://www.appicon.co/)
+
+### Permission In Info.plist (runner -> Info.Plist)
+
+
+**Location add in info.plist**
+
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>When in use permissions</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>always permissions</string>
+    <key>NSLocationAlwaysAndWhenInUsageDescription</key>
+    <string>Always and in usage permissions</string>
+
+**Camera**
+
+    <key>NSCameraUsageDescription</key>
+    <string>This app require camera permission</string>
+
+**Photos**
+
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app require permission to access microphone</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app require permission to access gallery</string>
+
+**Save Photos**
+
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app require save photo permission</string>
 
 
 ## Other Assets
