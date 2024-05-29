@@ -134,7 +134,21 @@ If it's fail then provide full access from setting to Xcode app terminal app
          2) Now click on icon as seen in below picture. A new searchable windows/screen will open.
          3) Now type,gradle signingreport and press Enter to start generating SHA KEY as seen in below.
          4) Your SHA Key will generate as seen in this picture. Using these steps you can generate SHA KEY in Android Studio 4.2.
-    
+
+## Beautiful UI design
+
+  * [UI](https://github.com/lohanidamodar/flutter_ui_challenges)
+  * [Awesome Flutter UI](https://github.com/basarozcan/awesome-flutter)
+  * [Flutter Design](https://github.com/Solido/awesome-flutter)
+  * [Design](https://github.com/avirias/awesome-flutter)
+  * [Flutter UI](https://github.com/avirias/flutter_ui_challenges)
+  * [UI Kit](https://github.com/avirias/Flutter-UI-Kit)
+  * [Flutter packages](https://github.com/leisim/awesome-flutter-packages)
+  * [UI Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates)
+  * [UI Design Page](https://github.com/basarozcan/awesome-flutter)
+  * [UI Design Pages](https://github.com/kalismeras61/flutter_awesome_design_pages)
+  * [Flutter Apps](https://github.com/pacifio/flutter_apps)
+
 
 
 ## Free Software for android and mac and windows
