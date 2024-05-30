@@ -57,11 +57,13 @@ If it's fail then provide full access from setting to Xcode app terminal app
 **Location add in info.plist**
 
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>When in use permissions</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>always permissions</string>
+    <string>Need location when in use</string>
     <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>Always and in usage permissions</string>
+    <string>Always and when in use!</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Older devices need location.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Can I haz location always?</string>
 
 **Camera**
 
@@ -79,6 +81,50 @@ If it's fail then provide full access from setting to Xcode app terminal app
 
     <key>NSPhotoLibraryAddUsageDescription</key>
     <string>This app require save photo permission</string>
+
+
+## Update Pod File (In Bottom)
+
+        
+    post_install do |installer|
+      installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+              config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= [
+                '$(inherited)',
+    
+                ## dart: PermissionGroup.camera
+                'PERMISSION_CAMERA=1',
+    
+                ## dart: PermissionGroup.photos
+                'PERMISSION_PHOTOS=1',
+    
+                ## dart: [PermissionGroup.location, PermissionGroup.locationAlways, PermissionGroup.locationWhenInUse]
+                'PERMISSION_LOCATION=1',
+    
+                ## dart: PermissionGroup.contacts
+                'PERMISSION_CONTACTS=1',
+    
+                ## dart: PermissionGroup.microphone
+                'PERMISSION_MICROPHONE=1',
+    
+                ## dart: PermissionGroup.notification
+                'PERMISSION_NOTIFICATIONS=1',
+    
+                ## dart: PermissionGroup.mediaLibrary
+                'PERMISSION_MEDIA_LIBRARY=1',
+    
+                ## dart: PermissionGroup.bluetooth
+                'PERMISSION_BLUETOOTH=1',
+    
+                ]
+            end
+            flutter_additional_ios_build_settings(target)
+      end
+    end
+
+
+
+    
 
 ### iOS Icon Generator (Drag & Drop runner -> Assets)
 
