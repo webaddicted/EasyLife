@@ -83,7 +83,7 @@ If it's fail then provide full access from setting to Xcode app terminal app
     <string>This app require save photo permission</string>
 
 
-## Update Pod File (In Bottom)
+### Update Pod File (In Bottom)
 
         
     post_install do |installer|
