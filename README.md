@@ -1,19 +1,20 @@
 # EaseLife
 
 ## Android
-        1) App name - 
-        2) Package name - 
-        3) Short Desc (80 character)
-        4) Long desc (4000 words)
-        5) App icon(512*512px, 1024*500px)
-        6) Phone Screenshot (Upload 2-8 phone screenshots. Screenshots must be PNG or JPEG, up to 8 MB each, 16:9 or 9:16 aspect ratio, with each side between 320 px and 3,840 px)
-        7) Email
-        8) Mobile Number
-        9) privacy policy url
-        10) App Category 
-        11) login details for play store testing
-        12) Account deletion url
-        13) Feature like (upload Photo/video, Webview, location, file upload) etc
+                1) App name - 
+                2) Package name - 
+                3) Short Desc (80 character)
+                4) Long desc (4000 words)
+                5) App icon(512*512px, 1024*500px)
+                6) Phone Screenshot (Upload 2-8 phone screenshots. Screenshots must be PNG or JPEG, up to 8 MB each, 16:9 or 9:16 aspect ratio, with each side between 320 px and 3,840 px)
+                Tab(1080*1920) and mobile(720*1600)
+                7) Email
+                8) Mobile Number
+                9) privacy policy url
+                10) App Category 
+                11) login details for play store testing
+                12. Account deletion url
+                13. Feature like (upload Photo/video, Webview, location, file upload, financial) etc
 
 ## Flutter iOS
 
