@@ -162,6 +162,9 @@ If it's fail then provide full access from setting to Xcode app terminal app
       end
     end
 
+### Certificate Generate
+
+   * [iOS Profile and Certificate Generate](https://www.youtube.com/watch?v=wSt8VSwwuIs)
 
 
     
