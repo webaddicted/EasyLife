@@ -16,6 +16,37 @@
                 12. Account deletion url
                 13. Feature like (upload Photo/video, Webview, location, file upload, financial) etc
 
+## Android close testing details
+
+          **How did you recruit users for your closed test**
+          Friends and family members helped me to test my app.
+          
+          **How easy was it to recruit testers for your app?**
+          Easy
+          
+          **Describe the engagement  you received from testers**
+          Most of my testers have tested all the features.
+          
+          **Provide a summary of the feedback that you received**
+          I have collected the feedback through the play store section.Most of my testers were happy to have the app on their devices.
+          
+          **Who is the intended audience of your app?**
+          Anybody who wants to translate the text or speech or images to their telugi language or vice versa.
+          
+          **Describe how your app provides value to users.**
+          My app is a useful app for the end users. It is free and easy to use.
+          
+          **How many installs in first years**
+          10k-100k
+          
+          **What changes did you make to your app bases on what you learned during closed testing?**
+          Fixed UI issues for the battery saver mode on.
+          
+          **How did you decide that your app is ready for prod?**
+          All the features were tested throughly. No issues found or crashed are found on closed testing.
+
+          
+
 ## Flutter iOS
 
         **iOS Account Creation**
