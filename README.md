@@ -1,5 +1,7 @@
 # EaseLife
 
+---
+
 ## Android
     1) App name - 
     2) Package name - 
@@ -44,6 +46,7 @@
     **How did you decide that your app is ready for prod?**
     All the features were tested throughly. No issues found or crashed are found on closed testing.
       
+---
 
 ## Flutter iOS
 
@@ -197,6 +200,8 @@ If it's fail then provide full access from setting to Xcode app terminal app
     Then upload save disk file on CSR website -> and download profile certificate.
     If provisioning certificate is not download then again go to profile and generate with name EzeerideProvisioningProfile
 
+---
+
 ### iOS Icon Generator (Drag & Drop runner -> Assets)
 
 [App Icon](https://www.appicon.co/)
@@ -214,7 +219,6 @@ If it's fail then provide full access from setting to Xcode app terminal app
    * [Awesome UI Design](https://github.com/thanhtoan1196/awesome-android-ui)
    * [Awesome Android](https://github.com/vimalcvs/Awesome-Android-UI#UI)
    * [Awesome UI](https://github.com/XPGSnail/awesome-android-ui)
-
 
 ### Coding library
 
