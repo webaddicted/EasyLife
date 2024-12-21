@@ -79,7 +79,11 @@
         
 
 ### Basic Install Process
-Remove ios folder then reinstall after completion project **flutter create -i swift --platforms ios .**
+    
+    Remove ios folder then reinstall after completion project 
+    **flutter create -i swift --platforms ios .**
+    flutter create --platforms web .
+    (If face any issue then create new main.dartweb on run icon in Additional run args:    --web-browser-flag "--disable-web-security")
 
     Pod install (zsh: command not found: pod)
     sudo gem install cocoapods
