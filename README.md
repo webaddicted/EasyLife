@@ -285,4 +285,14 @@ If it's fail then provide full access from setting to Xcode app terminal app
   * [DiskGenius For Partition](https://filecr.com/windows/diskgenius/)
   * [Whatsapp Web Blur Extension](https://wawplus.com)
 
+## Code ai
+  * [Bolt New](https://bolt.new/)
+  * [VS Extension tabine](tabine)
+  * [EasyCode Android Extension](EasyVode)
+  * [Chat Gpt](https://chat.openai.com/)
+  * [Black Box ai](https://www.blackbox.ai/)
+  * [Cursor](https://www.cursor.com/)
+
+    
+
 
