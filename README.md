@@ -283,5 +283,6 @@ If it's fail then provide full access from setting to Xcode app terminal app
 ## Free Software for android and mac and windows
   * [Free Software](https://filecr.com/en/?id=666012000000)
   * [DiskGenius For Partition](https://filecr.com/windows/diskgenius/)
+  * [Whatsapp Web Blur Extension](https://wawplus.com)
 
 
