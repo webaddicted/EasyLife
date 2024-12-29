@@ -284,6 +284,11 @@ If it's fail then provide full access from setting to Xcode app terminal app
   * [Free Software](https://filecr.com/en/?id=666012000000)
   * [DiskGenius For Partition](https://filecr.com/windows/diskgenius/)
   * [Whatsapp Web Blur Extension](https://wawplus.com)
+  * [ublock](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+  * [FlashCart](https://chromewebstore.google.com/detail/flashcart/behajodknfkalocmakpbpapalblbinok)
+  * [QuillBot](https://chromewebstore.google.com/detail/quillbot-ai-writing-and-g/iidnbdjijdkbmajdffnidomddglmieko)
+  * [Flipkart & Amazon Flash Sale](https://chromewebstore.google.com/detail/flipkart-amazon-flash-sal/jdndlnfepifglbjmdmplkjlohafgjfak)
+  * 
 
 ## Code ai
   * [Bolt New](https://bolt.new/)
